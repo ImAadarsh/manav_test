@@ -1,0 +1,276 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navbar{
+  background-color: rgb(3, 3, 114);
+  padding: 10px 0px;
+  color: white;
+
+}
+.nav1{
+  width: 145vmin;
+}
+.nav12 p{
+  font-size: 12px;
+}
+.nav12 b{
+  font-size: 15px;
+}
+.nav12 img{
+  height: fit-content;
+  margin-right: 11px;
+}
+.nav122{
+  border-left: 1px solid rgba(255, 255, 255, 0.342);
+  border-right: 1px solid rgba(255, 255, 255, 0.281);
+  border-style: dotted;
+}
+.btn1{
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+}
+.btn{
+  border-radius: 30px;
+  padding: 4px 15px;
+  font-size: 14px;
+}
+.btn2{
+  background: white;
+  color: rgb(3, 3, 114);
+  font-weight: 700;
+}
+.home1{
+  height: 30rem;
+}
+.home11{
+  height: 100%;
+}
+.home21{
+  padding: 10px;
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+  border: 1px solid rgb(125, 9, 219);
+  margin: auto;
+}
+.home21 img{
+  height: 100%;
+  width: 100%;
+}
+.home-main{
+  background-color: rgb(227, 253, 255);
+}
+.tops{
+  cursor: pointer;
+  align-items: center;
+}
+.top-bar{
+  position: relative;
+}
+.top-bar2{
+  position: absolute;
+  background-color: white;
+  z-index: 102;
+  width: 77%;
+  left: 11%;
+  /* top: 52px; */
+}
+.top-bar211 p{
+  font-size: 14px;
+}
+.home111{
+  padding: 1.5rem;
+  border-radius: 8px;
+  background-color: white;
+  width: 14.4rem;
+}
+.home-slide{
+  width: 100%;
+  position: relative;
+}
+.home1111{
+  border-bottom: 1px solid rgba(0, 0, 0, 0.178);
+}
+.home-img{
+  height: 100%;
+  padding-right: 10px;
+}
+.home-img img{
+  height: 100%;
+  border-radius: 6px;
+}
+.home2 .splide__track{
+  width: 92% !important;
+  margin: auto !important;
+}
+.home-search0{
+  width: 100%;
+  position: absolute;
+  top: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.home-search{
+  z-index: 101;
+  bottom: 16rem;
+  left: 22%;
+  background-color: rgba(0, 0, 0, 0.663);
+  padding: 10px 20px;
+  border-radius: 27px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.home-search-modal{
+  display: none;
+  width: 78%;
+  background-color: rgb(236, 236, 236);
+  margin-top: 1rem;
+  border-radius: 5px;
+  z-index: 101;
+}
+.hs1 b{
+  font-size: 15px;
+  font-weight: 700;
+  margin-right: 25px;
+  color: white;
+}
+.hs2{
+  background-color: white;
+  z-index: 3;
+  padding: 10px;
+  border-radius: 27px;
+  width: 106.6%;
+  position: relative;
+  left: -21px;
+  bottom: -10px;
+}
+.hs22{
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.hs22 input{
+  width: 24rem;
+  border: none;
+  outline: none;
+  padding: 10px;
+}
+.hs21{
+  padding: 10px;
+  padding-right: 40px;
+}
+.hs22 button{
+  background-color: rgb(6, 124, 124);
+  color: white;
+  padding: 13px 40px;
+  border-radius: 70px;
+}
+.focus1{
+  box-shadow: 0px 0px 1px 5000px rgba(0,0,0,0.8);
+}
+.bl{
+  display: none;
+  position: absolute;
+  height: 78rem;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.481);
+  z-index: 100;
+}
+.home31{
+  width: 50%;
+  position: relative;
+  margin-right: 2rem;
+}
+.home31-img1{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.home32{
+  width: 50%;
+  margin-left: 2rem;
+}
+.home32 h4{
+  font-weight: 800;
+  font-size: 24px;
+}
+.home32 p{
+  margin: 25px 0px;
+}
+.home320 p{
+  margin: 0px;
+}
+.home320{
+  margin-bottom: 30px;
+}
+.home320 h3{
+  font-size: 28px;
+  margin-bottom: 0px;
+}
+.home321 .dot{
+  height: 6px;
+  border-radius: 50%;
+  width: 6px;
+  margin-right: 4px;
+  background-color: rgb(21, 248, 21);
+}
+.home3211{
+  margin-right: 7rem;
+}
+.home31-img{
+  position: absolute;
+  height: 80px;
+  width: 80px;
+}
+.home31-img img{
+  height: 100%;
+  width: 100%;
+}
+.home31-img2{
+  top: 10px;
+  left: 30px;
+}
+.home31-img3{
+  top: 10px;
+  right: 30px;
+}
+.home31-img4{
+  bottom: 170px;
+  left: 230px;
+}
+.home31-img5{
+  bottom: 10px;
+  right: 120px;
+}
+.hsm11{
+  margin-right: 20px;
+  background-color: rgb(255, 226, 173);
+  border-radius: 20px;
+  padding: 7px 15px;
+  cursor: pointer;
+  color: rgb(201, 130, 0);
+}
+.hsm11:hover{
+  box-shadow: 0px 0px 0px 2px orange;
+}
+.hsm-card img{
+  margin-right: 10px;
+}
+.hsm-card p{
+  font-size: 14px;
+  color: rgb(78, 78, 78);
+}
+.hsm-card{
+  margin-right: 5rem;
+  margin-bottom: 1.4rem;
+}
+.hsm2{
+  border-radius: 7px;
+}
